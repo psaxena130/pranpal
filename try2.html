@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script>
+		var ws;
+		ws=new WebSocket("ws://localhost:8080/pranpal/try1.php");
+		ws.onopen=function(){
+			alert("hurray!");
+		}
+		ws.onerror=function(a){
+			alert(a.data);
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

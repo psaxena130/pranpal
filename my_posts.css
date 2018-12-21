@@ -1,0 +1,48 @@
+.posts{
+	position:relative;
+	width:50%;
+	left:25%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#settingmodal select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#postdown select{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#uploadimgbtn2{
+    position:absolute;
+    background-color:#8ABBF6;
+    bottom:15%;
+    left:25%;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    visibility: hidden;
+}
+#settingContent{
+    height:auto;
+}
+
+.posts img{
+	max-width: 50%;
+	position:relative;
+	left:25%;
+}
